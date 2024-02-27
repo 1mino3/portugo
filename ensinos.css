@@ -18,12 +18,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    top: 0;
 }
 
 #cabeca {
     top: 0;
     position: sticky;
     background-color: white;
+}
+
+#titulo > a {
+    text-decoration: none;
 }
 
 #titulo {
@@ -62,10 +67,6 @@ h1 > a {
     transition: 0.5s;
 }
 
-
-
-
-
 /* Configurações do Main */
 
 /* links do Main */
@@ -98,28 +99,6 @@ main {
     margin-top: 80px;
 }
 
-/* configurações principais */
-
-/* configurações do título da lista */
-
-main > h2 {
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-/* configurações da lista */
-
-main > ul {
-    text-align: center;
-    list-style-type: none;
-    font-size: 20px;
-}
-
-li {
-    padding-bottom: 10px;
-}
-
 /* configurações do footer */
 
 footer {
@@ -132,6 +111,7 @@ footer {
     text-align: center; /* Alinhar o texto ao centro */
     padding: 10px; /* Adicionar algum espaço interno para o conteúdo */
 }
+
 
 /* Adicione ao final do seu arquivo CSS */
 
@@ -157,3 +137,25 @@ footer {
     }
 }
 
+/* configurações extras */
+
+.legal {
+    text-align: left;
+}
+
+main {
+    margin-left: 20px;
+    text-align: left;
+}
+
+main > h2 {
+    text-align: left;
+}
+
+main > ul > li {
+    text-align: left;
+}
+
+main > h1 {
+    text-align: center;
+}
