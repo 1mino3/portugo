@@ -55,6 +55,17 @@ h1 > a {
     font-size: 20px;
 }
 
+#menu > input {
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#menu > input:hover {
+    border-color: rgb(34, 34, 34);
+}
+
 #menu > p > a:hover {
     padding: 10px;
     text-decoration: none;
