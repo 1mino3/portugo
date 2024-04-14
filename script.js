@@ -56,6 +56,20 @@ function redirecionar() {
         window.location.href = "prn.html" // pronome oblíquo
     } else if (texto === 'pronome obliquo' || texto === 'pronomes obliquos') {
         window.location.href = "prn.html" // pronome oblíquo
+    } else if (texto === 'esta essa e aquilo' || texto === 'essa esta e aquilo') {
+        window.location.href = "eiq.html" // esta essa e aquilo
+    } else if (texto === 'aquilo esta e essa' || texto === 'aquilo essa e esta') {
+        window.location.href = "eiq.html" // esta essa e aquilo
+    } else if (texto === 'aquilo' || texto === 'esta') {
+        window.location.href = "eiq.html" // esta essa e aquilo
+    } else if (texto === 'essa' || texto === 'esta e aquilo') {
+        window.location.href = "eiq.html" // esta essa e aquilo
+    } else if (texto === 'esta essa' || texto === 'essa aquilo') {
+        window.location.href = "eiq.html" // esta essa e aquilo
+    } else if (texto === 'essa aquilo esta' || texto === 'aquilo esta essa') {
+        window.location.href = "eiq.html" // esta essa e aquilo
+    } else if (texto === 'esta aquilo essa') {
+        window.location.href = "eiq.html" // esta essa e aquilo
     } else {
         var input = document.getElementById("txt");
         input.placeholder = "Inválido!";
